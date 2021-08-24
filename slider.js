@@ -48,10 +48,12 @@
 
     dotsWrapper.addEventListener("click", function (event) {
       const target = event.target;
-      for (let i = 0; i <= slides.length + 1; i++) {
+     
+      for (let i = 0; i <= slideItems.length + 1; i++) {
+        console.log( target.classList.contains("carousel__dot"));
         if (
           target &&
-          target.classList.contains("fade__dot") &&
+          target.classList.contains("carousel__dot") &&
           target == dots[i - 1]
         ) {
           currentSlide(i);
