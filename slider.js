@@ -63,6 +63,8 @@
       setInterval(() => {
         showSlides((slideIndex += 1));
       }, ms);
+      
+      /*If you need to write manipulations with the auto play button*/
     }
     autoPlay(5000);
     /* Swipe event */
