@@ -50,7 +50,6 @@
       const target = event.target;
      
       for (let i = 0; i <= slideItems.length + 1; i++) {
-        console.log( target.classList.contains("carousel__dot"));
         if (
           target &&
           target.classList.contains("carousel__dot") &&
