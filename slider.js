@@ -146,8 +146,6 @@ function slide(wrapper, items, prev, next) {
   }
    /*If you need to write manipulations with the auto play button*/
   
-  autoPlay(5000);
-
 }
 
 slide(slider, slides, prev, next);
